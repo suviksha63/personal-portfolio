@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/47249ea762.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#certi">Certification</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-list" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>An Aspiring Artificial Intelligence Engineer</p>
+                    <h1>Hi, I'm <span>SUVIKSHA S</span></h1>
+                </div>
+            </div>  
+        </div>
+<!-- -------about-------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As a inquistive learner immersed in the field of Artificial intelligence and Data Science,
+                I bring a strong academic foundation hands-on project experience and a passion for solving reral-world problems. 
+                Seeking an opportunity to contribute meaningfully to technology-focused environments where innovation meets impact.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python</span><br>Basic Machine Learning projects.</li>
+                        <li><span>N8N workflow</span><br>Connect AI agents to automate workflows.</li>
+                        <li><span>Power BI</span><br>Creating dashboard and data visualization</li>
+                        <li><span>Designing</span><br>Basic design using tools like figma and canva</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Full stack developer</span><br>Intern at webgen Technologies</li>
+                        <li><span>2025 - Machine Learning Engineer</span><br>intern at Code bind technologies</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-2023 Krishna International School</span><br>Graduated from school with 78%</li>
+                        <li><span>2023-2027 SNS College of Engineering</span><br>B.Tech Artificial Intelligence and Data Science (CGPA 8.78)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------certificates------------------------->
+<div id="certi">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="certi-list">
+            <div>
+                <h2>Amazon Web Service</h2>
+                <p> certified for Generative AI foundation course
+                by completeing the tasks, 
+                modules and earned AWS verified badge.</p>
+                <a href="#">Gen AI Foundation</a>
+            </div>
+            <div>
+                <h2>Forage Certifications</h2>
+                <p> certifed by deloitte for Data analytics course, 
+                TATA for Gen AI job simulation and
+                Accenture for Software Engineering job simulation.</p>
+                <a href="#">Software Engineering</a>
+            </div>
+            <div>
+                <h2>Oracle Certifications</h2>
+                <p> certifed for AI foundation course by completing the chapters, 
+                assignments and an examination.</p>
+                <a href="#">AI Foundation</a>
+            </div>
+            <div>
+                <h2>Data bricks Certifications</h2>
+                <p> Certified for data analytics fundamental by learning each modules and quiz.</p>
+                <a href="#">Data Analytics</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------Projects----------------------- -->
+ <div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/cv.png.jpg">
+                <div class="layer">
+                    <h3>Advanced CV Pipeline</h3>
+                    <p>Used kalman filtre algorthing, open cv, segmentation tree and quad tree 
+                    to detect the objects as a pipeline. </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/diag.png.jpg">
+                <div class="layer">
+                    <h3>Medical Diagnosis</h3>
+                    <p>Built an workflow usinh N8N to diagnose a patient by their symptoms
+                    and give precautions to cure them.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/cart.png.jpg">
+                <div class="layer">
+                    <h3>Autobilling Shopping Mall Cart</h3>
+                    <p>Built an advanced billing system using the RFID techlogy and microcontroller
+                    to automatically scan and bill the product in the cart.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/senti.png.jpg">
+                <div class="layer">
+                    <h3>Sentiment Analysis</h3>
+                    <p>Built a software that could able to predict the emotion and feeling by the 
+                    facial expression like happy, sad and other feelings.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Gained Hands-On Experience</a>
+    </div>
+ </div>
+ <!-- ----------------------------------contact----------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> suvikshas613@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8754847263</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/suviksha-s-785089298/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/suviksha63"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright suviksha. Made by <i class="fa-regular fa-heart"></i> suviksha s</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwR_SKwZnWYrzwsPhE0EgodKZWJK5oqI5Y2h56Ew7WC8TxVqVa4JF2NWA8OUXuW4J4n/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    </body>
+</html>
