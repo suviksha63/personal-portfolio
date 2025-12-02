@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Personal Portfolio Website</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/47249ea762.js" crossorigin="anonymous"></script>
@@ -12,16 +12,16 @@
         <div id="header">
             <div class="container">
                 <nav>
-                    <img src="images/logo.png" class="logo">
+                    <img src="images/logo.png" class="logo" alt="Logo">
                     <ul id="sidemenu">
                         <li><a href="#header">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#certi">Certification</a></li>
                         <li><a href="#project">Project</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
                     </ul>
-                    <i class="fa-solid fa-list" onclick="openmenu()"></i>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
                 </nav>
                 <div class="header-text">
                     <p>An Aspiring Artificial Intelligence Engineer</p>
@@ -34,18 +34,18 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="images/user.png">
+                <img src="images/user.png" alt="Profile Picture">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
-                <p>As a inquistive learner immersed in the field of Artificial intelligence and Data Science,
-                I bring a strong academic foundation hands-on project experience and a passion for solving reral-world problems. 
+                <p>As an inquisitive learner immersed in the field of Artificial Intelligence and Data Science,
+                I bring a strong academic foundation, hands-on project experience and a passion for solving real-world problems. 
                 Seeking an opportunity to contribute meaningfully to technology-focused environments where innovation meets impact.</p>
 
                 <div class="tab-titles">
                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
                 </div>
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
@@ -58,7 +58,7 @@
                 <div class="tab-contents" id="experience">
                     <ul>
                         <li><span>2023 - Full stack developer</span><br>Intern at webgen Technologies</li>
-                        <li><span>2025 - Machine Learning Engineer</span><br>intern at Code bind technologies</li>
+                        <li><span>2025 - Machine Learning Engineer</span><br>Intern at Code bind technologies</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="education">
@@ -78,27 +78,27 @@
         <div class="certi-list">
             <div>
                 <h2>Amazon Web Service</h2>
-                <p> certified for Generative AI foundation course
-                by completeing the tasks, 
+                <p>Certified for Generative AI foundation course
+                by completing the tasks, 
                 modules and earned AWS verified badge.</p>
                 <a href="#">Gen AI Foundation</a>
             </div>
             <div>
                 <h2>Forage Certifications</h2>
-                <p> certifed by deloitte for Data analytics course, 
+                <p>Certified by Deloitte for Data analytics course, 
                 TATA for Gen AI job simulation and
                 Accenture for Software Engineering job simulation.</p>
                 <a href="#">Software Engineering</a>
             </div>
             <div>
                 <h2>Oracle Certifications</h2>
-                <p> certifed for AI foundation course by completing the chapters, 
+                <p>Certified for AI foundation course by completing the chapters, 
                 assignments and an examination.</p>
                 <a href="#">AI Foundation</a>
             </div>
             <div>
-                <h2>Data bricks Certifications</h2>
-                <p> Certified for data analytics fundamental by learning each modules and quiz.</p>
+                <h2>Databricks Certifications</h2>
+                <p>Certified for data analytics fundamental by learning each module and quiz.</p>
                 <a href="#">Data Analytics</a>
             </div>
         </div>
@@ -110,34 +110,34 @@
         <h1 class="sub-title">My Projects</h1>
         <div class="project-list">
             <div class="project">
-                <img src="images/cv.png">
+                <img src="images/cv.png" alt="Computer Vision Project">
                 <div class="layer">
                     <h3>Advanced CV Pipeline</h3>
-                    <p>Used kalman filtre algorthing, open cv, segmentation tree and quad tree 
-                    to detect the objects as a pipeline. </p>
+                    <p>Used Kalman filter algorithm, OpenCV, segmentation tree and quad tree 
+                    to detect the objects as a pipeline.</p>
                 </div>
             </div>
             <div class="project">
-                <img src="images/diag.png">
+                <img src="images/diag.png" alt="Medical Diagnosis Project">
                 <div class="layer">
                     <h3>Medical Diagnosis</h3>
-                    <p>Built an workflow usinh N8N to diagnose a patient by their symptoms
+                    <p>Built a workflow using N8N to diagnose a patient by their symptoms
                     and give precautions to cure them.</p>
                 </div>
             </div>
             <div class="project">
-                <img src="images/cart.png">
+                <img src="images/cart.png" alt="Shopping Cart Project">
                 <div class="layer">
                     <h3>Autobilling Shopping Mall Cart</h3>
-                    <p>Built an advanced billing system using the RFID techlogy and microcontroller
+                    <p>Built an advanced billing system using the RFID technology and microcontroller
                     to automatically scan and bill the product in the cart.</p>
                 </div>
             </div>
             <div class="project">
-                <img src="images/senti.png">
+                <img src="images/senti.png" alt="Sentiment Analysis Project">
                 <div class="layer">
                     <h3>Sentiment Analysis</h3>
-                    <p>Built a software that could able to predict the emotion and feeling by the 
+                    <p>Built a software that could predict the emotion and feeling by the 
                     facial expression like happy, sad and other feelings.</p>
                 </div>
             </div>
@@ -151,11 +151,11 @@
         <div class="row">
             <div class="contact-left">
                 <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-envelope"></i> suvikshas613@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i> 8754847263</p>
+                <p><i class="fas fa-paper-plane"></i> suvikshas613@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 8754847263</p>
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/suviksha-s-785089298/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/suviksha63"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/suviksha-s-785089298/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/suviksha63"><i class="fab fa-github"></i></a>
                 </div>
                 <a href="images/my-cv.pdf.pdf" download class="btn btn2">Download CV</a>
             </div>
@@ -166,18 +166,18 @@
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
+                <span id="msg"></span>
             </div>
         </div>
     </div>
     <div class="copyright">
-        <p>copyright suviksha. Made by <i class="fa-regular fa-heart"></i> suviksha s</p>
+        <p>Copyright © Suviksha. Made with <i class="fas fa-heart"></i> by Suviksha S</p>
     </div>
 </div>
 
 <script>
-
-    var tablinks= document.getElementsByClassName("tab-links");
-    var tabcontents= document.getElementsByClassName("tab-contents");
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
 
     function opentab(tabname){
         for(tablink of tablinks){
@@ -187,7 +187,7 @@
             tabcontent.classList.remove("active-tab");
         }
         event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab")
+        document.getElementById(tabname).classList.add("active-tab");
     }
 </script>
 <script>
@@ -202,11 +202,18 @@
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbwR_SKwZnWYrzwsPhE0EgodKZWJK5oqI5Y2h56Ew7WC8TxVqVa4JF2NWA8OUXuW4J4n/exec'
   const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
 
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
+      .then(response => {
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
       .catch(error => console.error('Error!', error.message))
   })
 </script>
